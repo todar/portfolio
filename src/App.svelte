@@ -6,22 +6,6 @@
 </script>
 
 <style>
-  /* 
-    The components in this project work off of these
-    variables below. So make sure to update all refrences
-    if any changes to names are needed.
-
-    These are created to easily change style to the entire
-    project if so desired.
-  */
-  :global(:root) {
-    --primary: #00a173;
-    --primary-dark: #018660;
-    --bg: #151616;
-    --bg-text: #fff;
-    --subtle: rgb(207, 207, 207);
-    --radius: 5px;
-  }
   main {
     padding: 2em;
     height: 100%;
