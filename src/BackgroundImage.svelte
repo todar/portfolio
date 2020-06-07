@@ -10,8 +10,8 @@
     left: 0;
 
     /* Preserve aspet ratio */
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
 
     /* Added to remove flicker from scolling */
     will-change: transform;
