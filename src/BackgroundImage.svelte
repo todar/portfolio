@@ -10,8 +10,11 @@
     left: 0;
 
     /* Preserve aspet ratio */
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
+
+    /* Added to remove flicker from scolling */
+    will-change: transform;
     z-index: -1;
     overflow: hidden;
   }
