@@ -10,8 +10,8 @@
     left: 0;
 
     /* Preserve aspet ratio */
-    width: 120%;
-    height: 120%;
+    width: 100%;
+    height: 100%;
 
     /* Added to remove flicker from scolling */
     will-change: transform;
@@ -24,6 +24,7 @@
     background-image: url("/static/anton-repponen.jpg");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
   }
 
   /* 
