@@ -21,24 +21,10 @@
 
   .background-image {
     background: #222;
-    background-image: url("/static/anton-repponen.jpg");
+    background-image: url("/static/anton-repponen-small.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-  }
-
-  /* 
-    Most of the components will be on the outer edges
-    of the screen. So, to make them easier to visualize I'm
-    adding a dark gradent to make them pop more.
-   */
-  .background-image::after {
-    content: "";
-    background: radial-gradient(
-      circle at center,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.45)
-    );
   }
 </style>
 

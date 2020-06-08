@@ -57,7 +57,7 @@
 <article class="card">
   <div class="image-container">
     <!-- <div class="profile-image" /> -->
-    <img src="/static/profile-thumb.jpg" alt="Robert Todar Portrait" />
+    <img src="/static/profile.jpg" alt="Robert Todar Portrait" />
   </div>
   <h1>Robert Todar</h1>
   <h2>Software Developer</h2>
