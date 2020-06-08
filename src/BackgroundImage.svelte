@@ -21,7 +21,7 @@
 
   .background-image {
     background: #222;
-    background-image: url("/static/anton-repponen-small.jpg");
+    background-image: url("/static/anton-repponen.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
