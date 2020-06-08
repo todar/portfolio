@@ -7,6 +7,7 @@
 
 <style>
   main {
+    overflow: auto;
     padding: 2em;
     height: 100%;
     width: 100%;
