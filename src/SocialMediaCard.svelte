@@ -1,12 +1,12 @@
 <script>
-  import SvgIcon from "./SvgIcon.svelte";
+  import Icon from "./Icon.svelte";
   import {
     github,
     twitter,
     linkedin,
     stackoverflow,
     facebook
-  } from "./AppIcons";
+  } from "./iconPaths.js";
 </script>
 
 <style>
@@ -32,21 +32,21 @@
 <section>
   <nav class="hoverable">
     <a href="https://github.com/todar" title="Github">
-      <SvgIcon d={github} delay={200} />
+      <Icon d={github} delay={200} />
     </a>
     <a href="https://www.facebook.com/rtodar" title="Facebook">
-      <SvgIcon d={facebook} delay={300} />
+      <Icon d={facebook} delay={300} />
     </a>
     <a href="https://twitter.com/robert_todar" title="Twitter">
-      <SvgIcon d={twitter} delay={400} />
+      <Icon d={twitter} delay={400} />
     </a>
     <a href="https://www.linkedin.com/in/robert-todar/" title="Linkedin">
-      <SvgIcon d={linkedin} delay={500} />
+      <Icon d={linkedin} delay={500} />
     </a>
     <a
       href="https://stackoverflow.com/users/8309643/robert-todar?tab=profile"
       title="StackOverflow">
-      <SvgIcon d={stackoverflow} delay={600} />
+      <Icon d={stackoverflow} delay={600} />
     </a>
   </nav>
 </section>
