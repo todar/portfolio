@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "description": "Personal porfolio of Robert Todar",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
