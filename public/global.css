@@ -94,3 +94,13 @@ button:not(:disabled):active {
 button:focus {
   border-color: #666;
 }
+
+.hoverable {
+  border-radius: var(--radius);
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.hoverable:hover {
+  background: rgba(0, 0, 0, 0.3);
+}

@@ -19,10 +19,11 @@
   time {
     grid-area: clock;
     color: #fff;
+    text-align: center;
     font-weight: 300;
     font-size: 3.5em;
     letter-spacing: 1.5px;
-    padding: 10px 20px;
+    padding: 5px 20px;
     transition: 0.3s;
     border-radius: var(--radius);
   }

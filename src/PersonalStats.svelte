@@ -12,6 +12,7 @@
 
   article {
     padding: 10px 20px;
+    margin-bottom: 8px;
     transition: 0.3s;
     border-radius: var(--radius);
   }
