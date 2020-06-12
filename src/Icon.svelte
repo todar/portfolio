@@ -1,5 +1,6 @@
 <script>
-  export let fill = "#ffffff";
+  export let fill = "var(--bg-text)";
+  export let hover = "var(--primary)";
   export let d = "";
   export let delay = 100;
   import { fade, fly } from "svelte/transition";
@@ -12,6 +13,7 @@
 
 <style>
   .icon {
+    fill: var(--fill);
     position: relative;
     top: 5px;
     left: 5px;
@@ -20,12 +22,12 @@
   }
 
   .icon:hover {
-    fill: var(--primary);
+    fill: var(--hover);
   }
 
   @media screen and (max-width: 657px) {
     .icon {
-      fill: var(--primary);
+      fill: var(--hover);
     }
   }
 </style>
@@ -33,12 +35,12 @@
 {#if show}
 
   <svg
-    transition:fly={{ delay, duration: 1000, y: 20, opacity: 0 }}
+    style="--fill: {fill}; --hover: {hover}"
+    in:fly={{ delay, duration: 1500, y: 20, opacity: 0 }}
     class="icon"
     width="50"
     height="50"
     viewBox="0 0 64 64"
-    {fill}
     xmlns="http://www.w3.org/2000/svg">
     <path {d} />
   </svg>
