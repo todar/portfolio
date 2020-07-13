@@ -2,9 +2,11 @@
   section {
     grid-area: personalStats;
     display: flex;
+    align-items: start;
   }
 
-  @media screen and (max-width: 760px) {
+
+  @media screen and (max-width: 900px) {
     section {
       flex-direction: column;
     }

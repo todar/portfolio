@@ -25,7 +25,7 @@
     fill: var(--hover);
   }
 
-  @media screen and (max-width: 657px) {
+  @media screen and (max-width: 800px) {
     .icon {
       fill: var(--hover);
     }

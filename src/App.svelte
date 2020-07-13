@@ -20,26 +20,15 @@
     gap: 30px;
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-areas:
-      "personalStats    clock"
-      ".  aboutCard"
-      ".  ."
-      "socialMediaCard socialMediaCard";
+      "socialMediaCard    clock"
+      "personalStats  aboutCard"
+     ;
     justify-content: space-between;
     /* align-items: stretch; */
     grid-template-rows: min-content max-content;
   }
 
-  @media screen and (max-width: 1255px) {
-    main {
-      grid-template-areas:
-        "personalStats    clock"
-        ".  aboutCard"
-        ".  ."
-        "socialMediaCard socialMediaCard";
-    }
-  }
-
-  @media screen and (max-width: 657px) {
+  @media screen and (max-width: 800px) {
     main {
       grid-template-areas:
         "clock"
@@ -80,20 +69,20 @@
 -->
 
 <svelte:window on:load={() => (loaded = true)} < />
-
+<!-- 
 {#if !loaded}
   <section class="loader" out:fade={{ delay: 2000, duration: 500 }}>
     <img src="./static/loading-downsized.gif" alt="Loading" />
     Loading...
   </section>
-{:else}
-  <BackgroundImage />
-  <section class="main" in:fade={{ duration: 500 }}>
-    <main>
-      <PersonalStats />
-      <Clock />
-      <AboutCard />
-      <SocialMediaCard />
-    </main>
-  </section>
-{/if}
+{:else} -->
+<BackgroundImage />
+<section class="main" in:fade={{ duration: 500 }}>
+  <main>
+    <PersonalStats />
+    <Clock />
+    <AboutCard />
+    <SocialMediaCard />
+  </main>
+</section>
+<!-- {/if} -->

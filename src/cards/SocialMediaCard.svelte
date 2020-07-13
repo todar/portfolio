@@ -13,10 +13,7 @@
 <style>
   section {
     grid-area: socialMediaCard;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-self: start;
   }
 
   nav {

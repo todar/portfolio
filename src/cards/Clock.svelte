@@ -16,6 +16,18 @@
 </script>
 
 <style>
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius);
+    padding: 0 20px;
+    transition: 0.3s;
+  }
+
+  section:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
   time {
     grid-area: clock;
     color: #fff;
@@ -23,14 +35,9 @@
     font-weight: 300;
     font-size: 3.5em;
     letter-spacing: 1.5px;
-    padding: 5px 20px;
-    transition: 0.3s;
-    border-radius: var(--radius);
-  }
-
-  time:hover {
-    background: rgba(0, 0, 0, 0.3);
   }
 </style>
 
-<time datetime={formattedTime}>{formattedTime}</time>
+<section>
+  <time datetime={formattedTime}>{formattedTime}</time>
+</section>
