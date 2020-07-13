@@ -1,5 +1,5 @@
 <script>
-  import Icon from "./Icon.svelte";
+  import Icon from "../icons/Icon.svelte";
   import {
     github,
     twitter,
@@ -7,8 +7,7 @@
     stackoverflow,
     facebook,
     heart
-  } from "./iconPaths.js";
-  import Like from "./Like.svelte";
+  } from "../icons/iconPaths.js";
 </script>
 
 <style>
@@ -46,7 +45,4 @@
       <Icon d={stackoverflow} delay={900} />
     </a>
   </nav>
-
-  <Like />
-
 </section>

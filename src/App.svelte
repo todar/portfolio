@@ -1,9 +1,9 @@
 <script>
   import BackgroundImage from "./BackgroundImage.svelte";
-  import Clock from "./Clock.svelte";
-  import AboutCard from "./AboutCard.svelte";
-  import PersonalStats from "./PersonalStats.svelte";
-  import SocialMediaCard from "./SocialMediaCard.svelte";
+  import Clock from "./cards/Clock.svelte";
+  import AboutCard from "./cards/AboutCard.svelte";
+  import PersonalStats from "./cards/PersonalStats.svelte";
+  import SocialMediaCard from "./cards/SocialMediaCard.svelte";
 
   import { fade } from "svelte/transition";
   let loaded = false;
@@ -82,10 +82,8 @@
 <svelte:window on:load={() => (loaded = true)} < />
 
 {#if !loaded}
-  <section class="loader" out:fade={{ duration: 500 }}>
-    <img
-      src="https://media.giphy.com/media/NEvPzZ8bd1V4Y/giphy-downsized.gif"
-      alt="Loading" />
+  <section class="loader" out:fade={{ delay: 2000, duration: 500 }}>
+    <img src="./static/loading-downsized.gif" alt="Loading" />
     Loading...
   </section>
 {:else}
