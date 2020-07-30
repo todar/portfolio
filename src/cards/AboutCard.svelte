@@ -1,5 +1,11 @@
 <script>
   import Button from "../Button.svelte";
+  const startDate = new Date(2015, 0, 1);
+  const today = new Date();
+
+  const yearsProgramming = parseInt(
+    (today - startDate) / (1000 * 60 * 60 * 24) / 365
+  );
 </script>
 
 <style>
@@ -66,17 +72,12 @@
     <h1>Robert Todar</h1>
     <h2>Software Developer</h2>
     <p>
-      Hello, I'm a software developer with over 5 years expereince. I live in
-      Phoenix, Arizona.
+      Hello, I'm a software developer with over {yearsProgramming} years
+      expereince. I live in Phoenix, Arizona.
     </p>
     <p>
       I specialize in Svelte and ReactJS web frameworks and am highly
-      expereinced in data science using VBA, SQL, and Python.
+      expereinced in data analytics and automation using VBA, SQL, and Python.
     </p>
-    <p>
-      Currently I'm in the process of updating this site, so please be patient
-      as I add more features and better performance!
-    </p>
-    <!-- <Button fullwidth>Hire Me</Button> -->
   </div>
 </article>
