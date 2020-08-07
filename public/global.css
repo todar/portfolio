@@ -9,10 +9,14 @@
 :root {
   --primary: #00a173;
   --primary-dark: #018660;
+  --secondary: #ffca28;
   --bg: #151616;
   --bg-text: #fff;
   --subtle: rgb(207, 207, 207);
   --radius: 5px;
+  --padding: 10px 20px;
+  --margin: 20px;
+  --max-width: 90%;
 }
 * {
   box-sizing: border-box;
@@ -40,7 +44,7 @@ body {
 }
 
 a {
-  color: rgb(0, 100, 200);
+  color: var(--primary);
   text-decoration: none;
 }
 
@@ -49,7 +53,7 @@ a:hover {
 }
 
 a:visited {
-  color: rgb(0, 80, 160);
+  color: var(--primary-dark);
 }
 
 label {
@@ -97,10 +101,37 @@ button:focus {
 
 .hoverable {
   border-radius: var(--radius);
-  padding: 10px 20px;
   transition: 0.3s;
+  padding: var(--padding);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .hoverable:hover {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2 {
+  /* margin: 0; */
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+p {
+  color: var(--subtle);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+section {
+  max-width: var(--max-width);
 }

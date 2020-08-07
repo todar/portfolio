@@ -9,9 +9,10 @@
 </script>
 
 <style>
-  article {
-    grid-area: aboutCard;
+  a {
+    color: var(--secondary);
   }
+
   .card {
     display: flex;
     flex-direction: column;
@@ -20,18 +21,18 @@
     background: var(--bg);
     color: var(--bg-text);
     border-radius: var(--radius);
-
-    text-align: center;
-    max-width: 325px;
+    max-width: 350px;
+    width: var(--max-width);
   }
 
   .card-content {
-    padding: 1rem;
+    padding: var(--padding);
   }
 
   .image-container {
     width: 100%;
     height: auto;
+    object-fit: cover;
     display: flex;
     border-top-left-radius: var(--radius);
     border-top-right-radius: var(--radius);
@@ -40,6 +41,7 @@
   img {
     width: 100%;
     height: auto;
+    object-fit: cover;
     border-top-left-radius: var(--radius);
     border-top-right-radius: var(--radius);
   }
@@ -47,19 +49,11 @@
   h1,
   h2 {
     margin: 0;
-    font-weight: 400;
   }
 
-  h1 {
-    font-size: 1.3em;
-  }
-
-  h2 {
-    font-size: 1.1em;
-  }
-
-  p {
-    color: var(--subtle);
+  @media screen and (max-width: 600px) {
+    .card {
+    }
   }
 </style>
 
@@ -76,8 +70,21 @@
       expereince. I live in Phoenix, Arizona.
     </p>
     <p>
-      I specialize in Svelte and ReactJS web frameworks and am highly
-      expereinced in data analytics and automation using VBA, SQL, and Python.
+      I specialize in
+      <a href="https://svelte.dev/" style="color: #ff3e00;">Svelte</a>
+      and
+      <a href="https://reactjs.org/" style="color: #61dafb;">React</a>
+      front end web development frameworks. For the backend I'm expereinced with
+      <a href="https://firebase.google.com/">Firebase</a>
+      as a
+      <abbr title="Backend-as-a-Service">BaaS</abbr>
+      .
+    </p>
+    <p>
+      Additionally, I'm highly expereinced in data analytics and automation
+      using VBA, SQL, and
+      <a href="https://www.python.org/" style="color: #3776ab;">Python</a>
+      .
     </p>
   </div>
 </article>

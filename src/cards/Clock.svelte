@@ -22,14 +22,9 @@
     align-items: center;
     border-radius: var(--radius);
     padding: 0 20px;
-    transition: 0.3s;
   }
 
-  section:hover {
-    background: rgba(0, 0, 0, 0.3);
-  }
   time {
-    grid-area: clock;
     color: #fff;
     text-align: center;
     font-weight: 300;
@@ -38,6 +33,6 @@
   }
 </style>
 
-<section>
+<section class="hoverable">
   <time datetime={formattedTime}>{formattedTime}</time>
 </section>

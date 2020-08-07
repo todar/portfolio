@@ -1,27 +1,35 @@
+<script>
+  import Loader from "../Loader.svelte";
+  // import { fetchGithubProfile, fetchStackoverflowProfile } from "../store.js";
+  // let githubPromise = fetchGithubProfile();
+
+  // let stackoverflowPromise = fetchStackoverflowProfile();
+</script>
+
 <style>
   section {
-    grid-area: personalStats;
+    max-width: var(--max-width);
+    width: 100%;
+  }
+  .content {
     display: flex;
     align-items: start;
   }
 
-
   @media screen and (max-width: 900px) {
-    section {
+    .content {
       flex-direction: column;
+      width: 100%;
+    }
+
+    .content a {
+      margin: 0 0 var(--margin) 0;
+      width: 100%;
     }
   }
 
   article {
-    padding: 10px 20px;
-    margin-bottom: 8px;
     transition: 0.3s;
-    border-radius: var(--radius);
-  }
-
-  article:hover {
-    background: rgba(0, 0, 0, 0.3);
-    cursor: pointer;
   }
 
   a {
@@ -29,10 +37,13 @@
     text-decoration: none;
   }
 
-  h2,
-  h3 {
+  .content h2,
+  .content h3 {
     margin: 0;
-    font-weight: 400;
+  }
+
+  .content a {
+    margin-right: 20px;
   }
 
   .stat {
@@ -45,26 +56,45 @@
     font-weight: 500;
   }
 
-  .stack-overlow-color {
+  .stack-overflow-color {
     color: #f48024;
   }
 </style>
 
 <section>
-  <a
-    href="https://github.com/todar?tab=repositories"
-    title="Github Repositories">
-    <article>
-      <h2 class="stat">30</h2>
-      <h3 class="stat-description">Github Repositories</h3>
-    </article>
-  </a>
-  <a
-    href="https://stackoverflow.com/users/8309643/robert-todar?tab=profile"
-    title="Stackoverflow Profile">
-    <article>
-      <h2 class="stat stack-overlow-color">1,269</h2>
-      <h3 class="stat-description">Stack Overflow Reputation</h3>
-    </article>
-  </a>
+  <h2>My Contributions</h2>
+  <div class="content">
+    <a
+      class="hoverable"
+      href="https://github.com/todar?tab=repositories"
+      title="Github Repositories">
+      <article>
+        <!-- {#await githubPromise}
+        <Loader />
+      {:then user}
+        <h2 class="stat">{user.public_repos}</h2>
+      {:catch}
+        <h2 class="stat">Error</h2>
+      {/await} -->
+        <h2 class="stat">30</h2>
+        <h3 class="stat-description">Github Repositories</h3>
+      </article>
+    </a>
+    <a
+      class="hoverable"
+      href="https://stackoverflow.com/users/8309643/robert-todar?tab=profile"
+      title="Stackoverflow Profile">
+      <article>
+        <!-- {#await stackoverflowPromise}
+        <Loader />
+      {:then user}
+        <h2 class="stat stack-overflow-color">{user.items[0].reputation}</h2>
+      {:catch}
+        <h2 class="stat">Error</h2>
+      {/await} -->
+        <h2 class="stat stack-overflow-color">1237</h2>
+        <h3 class="stat-description">Stack Overflow Reputation</h3>
+      </article>
+    </a>
+  </div>
 </section>

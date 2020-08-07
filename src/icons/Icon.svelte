@@ -17,7 +17,7 @@
     position: relative;
     top: 5px;
     left: 5px;
-    margin-right: 14px;
+    padding: 0 5px;
     transition: 0.115s;
   }
 

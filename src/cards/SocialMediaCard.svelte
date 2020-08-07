@@ -5,24 +5,31 @@
     twitter,
     linkedin,
     stackoverflow,
-    facebook,
-    heart
+    facebook
   } from "../icons/iconPaths.js";
 </script>
 
 <style>
   section {
-    grid-area: socialMediaCard;
-    justify-self: start;
+    width: 100%;
+    max-width: 370px;
   }
-
   nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 324px;
+  }
+
+  @media screen and (max-width: 820px) {
+    nav {
+      padding: 0px;
+      max-width: var(--max-width);
+    }
   }
 </style>
 
 <section>
+  <h2>Follow Me</h2>
   <nav class="hoverable">
     <a href="https://github.com/todar" title="Github">
       <Icon d={github} delay={500} />
