@@ -13,7 +13,10 @@
   }
 
   .desktop {
-    display: flex;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 20px;
     justify-content: space-between;
   }
 
@@ -22,14 +25,14 @@
   }
 
   .right {
-    flex-grow: 1fr;
+    align-items: flex-end;
   }
 
   main {
     padding: 20px 0;
     margin: 0 auto;
     height: 100%;
-    max-width: var(--max-width);
+    max-width: 90%;
   }
   aside {
     display: flex;
@@ -42,7 +45,7 @@
     margin-bottom: var(--margin);
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 760px) {
     .desktop {
       display: none;
     }
@@ -51,6 +54,11 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      max-width: 95%;
+      margin: 0 auto;
+    }
+    main {
+      max-width: none;
     }
   }
 </style>
@@ -75,7 +83,7 @@
   </div>
   <div class="mobile">
     <Clock />
-    <!-- <SocialMediaCard /> -->
+    <SocialMediaCard />
     <AboutCard />
     <Projects />
     <PersonalStats />

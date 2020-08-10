@@ -7,13 +7,9 @@
 </script>
 
 <style>
-  section {
-    max-width: var(--max-width);
-    width: 100%;
-  }
   .content {
     display: flex;
-    align-items: start;
+    gap: 20px;
   }
 
   @media screen and (max-width: 900px) {
@@ -23,7 +19,6 @@
     }
 
     .content a {
-      margin: 0 0 var(--margin) 0;
       width: 100%;
     }
   }
@@ -40,10 +35,6 @@
   .content h2,
   .content h3 {
     margin: 0;
-  }
-
-  .content a {
-    margin-right: 20px;
   }
 
   .stat {

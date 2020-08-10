@@ -10,20 +10,15 @@
 </script>
 
 <style>
-  section {
-    width: 100%;
-    max-width: 370px;
-  }
   nav {
-    display: flex;
+    display: inline-flex;
     justify-content: space-evenly;
-    max-width: 324px;
   }
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 900px) {
     nav {
       padding: 0px;
-      max-width: var(--max-width);
+      width: 100%;
     }
   }
 </style>

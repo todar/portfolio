@@ -22,6 +22,7 @@
     align-items: center;
     border-radius: var(--radius);
     padding: 0 20px;
+    width: 350px;
   }
 
   time {
@@ -30,6 +31,12 @@
     font-weight: 300;
     font-size: 3.5em;
     letter-spacing: 1.5px;
+  }
+
+  @media screen and (max-width: 760px) {
+    section {
+      width: 100%;
+    }
   }
 </style>
 

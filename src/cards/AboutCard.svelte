@@ -21,8 +21,7 @@
     background: var(--bg);
     color: var(--bg-text);
     border-radius: var(--radius);
-    max-width: 350px;
-    width: var(--max-width);
+    width: 350px;
   }
 
   .card-content {
@@ -51,8 +50,9 @@
     margin: 0;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 760px) {
     .card {
+      width: 100%;
     }
   }
 </style>
@@ -77,14 +77,12 @@
       front end web development frameworks. For the backend I'm expereinced with
       <a href="https://firebase.google.com/">Firebase</a>
       as a
-      <abbr title="Backend-as-a-Service">BaaS</abbr>
-      .
+      <abbr title="Backend-as-a-Service">BaaS</abbr>.
     </p>
     <p>
       Additionally, I'm highly expereinced in data analytics and automation
       using VBA, SQL, and
-      <a href="https://www.python.org/" style="color: #3776ab;">Python</a>
-      .
+      <a href="https://www.python.org/" style="color: #3776ab;">Python</a>.
     </p>
   </div>
 </article>
