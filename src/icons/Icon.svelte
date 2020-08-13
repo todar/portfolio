@@ -17,7 +17,7 @@
     position: relative;
     top: 5px;
     left: 5px;
-    padding: 0 5px;
+    padding: 0 7px;
     transition: 0.115s;
   }
 
@@ -38,8 +38,8 @@
     style="--fill: {fill}; --hover: {hover}"
     in:fly={{ delay, duration: 1500, y: 20, opacity: 0 }}
     class="icon"
-    width="50"
-    height="50"
+    width="60"
+    height="60"
     viewBox="0 0 64 64"
     xmlns="http://www.w3.org/2000/svg">
     <path {d} />
