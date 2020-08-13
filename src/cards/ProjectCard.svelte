@@ -52,6 +52,7 @@
 
   .outer-link {
     text-decoration: none;
+    max-width: 100%;
   }
 </style>
 
