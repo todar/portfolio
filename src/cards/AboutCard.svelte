@@ -26,6 +26,7 @@
 
   .card-content {
     padding: var(--padding);
+    padding-bottom: 0;
   }
 
   .image-container {
@@ -48,6 +49,14 @@
   h1,
   h2 {
     margin: 0;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .coffee {
+    padding: 20px;
   }
 
   @media screen and (max-width: 760px) {
@@ -77,12 +86,21 @@
       front end web development frameworks. For the backend I'm expereinced with
       <a href="https://firebase.google.com/">Firebase</a>
       as a
-      <abbr title="Backend-as-a-Service">BaaS</abbr>.
+      <abbr title="Backend-as-a-Service">BaaS</abbr>
+      .
     </p>
     <p>
       Additionally, I'm highly expereinced in data analytics and automation
       using VBA, SQL, and
-      <a href="https://www.python.org/" style="color: #3776ab;">Python</a>.
+      <a href="https://www.python.org/" style="color: #3776ab;">Python</a>
+      .
     </p>
   </div>
+  <a
+    class="coffee"
+    href="https://www.buymeacoffee.com/todar"
+    target="_blank"
+    rel="noreferrer">
+    ☕ Buy me a coffee
+  </a>
 </article>
