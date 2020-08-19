@@ -33,6 +33,7 @@
   }
 
   .card-content {
+    color: var(--bg-text);
     max-width: 70%;
     display: flex;
     flex-direction: column;
