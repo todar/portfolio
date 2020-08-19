@@ -1,5 +1,5 @@
 <script>
-  import Button from "../Button.svelte";
+  import CoffeeButton from "../CoffeeButton.svelte";
   const startDate = new Date(2015, 0, 1);
   const today = new Date();
 
@@ -32,6 +32,7 @@
   .image-container {
     width: 100%;
     height: auto;
+    min-height: 233px;
     object-fit: cover;
     display: flex;
     border-top-left-radius: var(--radius);
@@ -75,24 +76,27 @@
     <h1>Robert Todar</h1>
     <h2>Software Developer</h2>
     <p>
-      Hello, I'm a software developer with over {yearsProgramming} years
-      expereince. I live in Phoenix, Arizona.
+      Hello, I'm a software developer with over {yearsProgramming}
+      years expereince. I live in Phoenix, Arizona.
     </p>
     <p>
       I specialize in
       <a href="https://svelte.dev/" style="color: #ff3e00;">Svelte</a>
       and
       <a href="https://reactjs.org/" style="color: #61dafb;">React</a>
-      front end web development frameworks. For the backend I'm expereinced with
+      front end web development frameworks. For the backend I'm
+      expereinced with
       <a href="https://firebase.google.com/">Firebase</a>
       as a
       <abbr title="Backend-as-a-Service">BaaS</abbr>
       .
     </p>
     <p>
-      Additionally, I'm highly expereinced in data analytics and automation
-      using VBA, SQL, and
-      <a href="https://www.python.org/" style="color: #3776ab;">Python</a>
+      Additionally, I'm highly expereinced in data analytics and
+      automation using VBA, SQL, and
+      <a href="https://www.python.org/" style="color: #3776ab;">
+        Python
+      </a>
       .
     </p>
   </div>
