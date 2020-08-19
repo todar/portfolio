@@ -53,7 +53,7 @@
 </style>
 
 <section>
-  <h2>My Contributions</h2>
+  <h2>Open Source</h2>
   <div class="content">
     <a
       class="hoverable"

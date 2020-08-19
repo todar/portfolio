@@ -5,7 +5,7 @@
     twitter,
     linkedin,
     stackoverflow,
-    facebook
+    facebook,
   } from "../icons/iconPaths.js";
 </script>
 
@@ -35,7 +35,9 @@
     <a href="https://twitter.com/robert_todar" title="Twitter">
       <Icon d={twitter} delay={700} />
     </a>
-    <a href="https://www.linkedin.com/in/robert-todar/" title="Linkedin">
+    <a
+      href="https://www.linkedin.com/in/robert-todar/"
+      title="Linkedin">
       <Icon d={linkedin} delay={800} />
     </a>
     <a

@@ -17,7 +17,7 @@
 </style>
 
 <section>
-  <h2>My Projects</h2>
+  <h2>Projects</h2>
   <div class="cards">
 
     <Card
