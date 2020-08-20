@@ -99,11 +99,12 @@
       .
     </p>
   </div>
-  <a
+  <CoffeeButton />
+  <!-- <a
     class="coffee"
     href="https://www.buymeacoffee.com/todar"
     target="_blank"
     rel="noreferrer">
     ☕ Buy me a coffee
-  </a>
+  </a> -->
 </article>
