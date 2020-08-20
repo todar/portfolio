@@ -5,10 +5,14 @@
 
     These are created to easily change style to the entire
     project if so desired.
+
+    Possible Theme Colors: #00a173, #00ff95,#60ffb6, #ffca28, #60a7ff
   */
+
 :root {
-  --primary: #00a173;
-  --primary-dark: #018660;
+  --primary-alt: #60a7ff;
+  --primary: #60ffb6;
+  --primary-dark: #47e69b;
   --secondary: #ffca28;
   --bg: #151616;
   --bg-text: #fff;
@@ -53,7 +57,7 @@ a:hover {
 }
 
 a:visited {
-  color: var(--primary-dark);
+  /* color: var(--primary-dark); */
 }
 
 label {

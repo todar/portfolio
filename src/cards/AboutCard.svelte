@@ -10,7 +10,7 @@
 
 <style>
   a {
-    color: var(--secondary);
+    /* color: var(--secondary); */
   }
 
   .card {
@@ -58,6 +58,7 @@
 
   .coffee {
     padding: 20px;
+    color: var(--secondary);
   }
 
   @media screen and (max-width: 760px) {
@@ -81,9 +82,9 @@
     </p>
     <p>
       I specialize in
-      <a href="https://svelte.dev/" style="color: #ff3e00;">Svelte</a>
+      <a href="https://svelte.dev/">Svelte</a>
       and
-      <a href="https://reactjs.org/" style="color: #61dafb;">React</a>
+      <a href="https://reactjs.org/">React</a>
       front end web development frameworks. For the backend I'm
       expereinced with
       <a href="https://firebase.google.com/">Firebase</a>
@@ -94,9 +95,7 @@
     <p>
       Additionally, I'm highly expereinced in data analytics and
       automation using VBA, SQL, and
-      <a href="https://www.python.org/" style="color: #3776ab;">
-        Python
-      </a>
+      <a href="https://www.python.org/">Python</a>
       .
     </p>
   </div>

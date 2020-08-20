@@ -6,6 +6,7 @@
     linkedin,
     stackoverflow,
     facebook,
+    codepen,
   } from "../icons/iconPaths.js";
 </script>
 
@@ -44,6 +45,12 @@
       href="https://stackoverflow.com/users/8309643/robert-todar?tab=profile"
       title="StackOverflow">
       <Icon d={stackoverflow} delay={900} />
+    </a>
+    <a
+      href="https://codepen.io/todar"
+      title="codepen"
+      style="margin-left: -10px;">
+      <Icon d={codepen} delay={1000} viewBox="0 0 35 35" />
     </a>
   </nav>
 </section>
