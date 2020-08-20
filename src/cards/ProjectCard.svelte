@@ -2,6 +2,7 @@
   export let title = "";
   export let content = "";
   export let href = "";
+  export let displayedHref = "";
   export let imageName = "";
   export let alt = "";
 </script>
@@ -68,7 +69,7 @@
         <h2>{title}</h2>
         <p>{content}</p>
       </header>
-      <a class="link" {href}>{href}</a>
+      <a class="link" {href}>{displayedHref}</a>
     </div>
 
     <!-- Image -->

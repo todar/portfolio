@@ -25,6 +25,7 @@
       content="Weston Gibson is rated as one of the top Realtors in
       Phoenix, Arizona."
       href="https://www.westongibson.com/"
+      displayedHref="www.westongibson.com"
       alt="house thumbnail"
       imageName="weston-gibson-page.jpg" />
 
@@ -32,6 +33,7 @@
       title="Friday Night Church"
       content="The official website of Friday Night Church."
       href="https://www.fridaynight.info/"
+      displayedHref="www.fridaynight.info"
       alt="home church thumbnail"
       imageName="friday-night-church-page.jpg" />
 
