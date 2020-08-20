@@ -3,6 +3,10 @@
   export let hover = "var(--primary)";
   export let d = "";
   export let delay = 100;
+  export let width = "60";
+  export let height = "60";
+  export let viewBox = "0 0 64 64";
+
   import { fade, fly } from "svelte/transition";
   import { quintIn } from "svelte/easing";
   import { onMount } from "svelte";
@@ -38,9 +42,9 @@
     style="--fill: {fill}; --hover: {hover}"
     in:fly={{ delay, duration: 1500, y: 20, opacity: 0 }}
     class="icon"
-    width="60"
-    height="60"
-    viewBox="0 0 64 64"
+    {width}
+    {height}
+    {viewBox}
     xmlns="http://www.w3.org/2000/svg">
     <path {d} />
   </svg>
