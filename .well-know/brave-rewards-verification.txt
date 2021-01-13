@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: roberttodar.com
-Token: 9c6ce224209f8c62385c62f21b92e7597dbdeda4a61344e77e6ac4896840149a
