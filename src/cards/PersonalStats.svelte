@@ -67,7 +67,7 @@
       {:catch}
         <h2 class="stat">Error</h2>
       {/await} -->
-        <h2 class="stat">30</h2>
+        <h2 class="stat">36</h2>
         <h3 class="stat-description">Github Repositories</h3>
       </article>
     </a>
@@ -83,7 +83,7 @@
       {:catch}
         <h2 class="stat">Error</h2>
       {/await} -->
-        <h2 class="stat stack-overflow-color">1237</h2>
+        <h2 class="stat stack-overflow-color">1,669</h2>
         <h3 class="stat-description">Stack Overflow Reputation</h3>
       </article>
     </a>
