@@ -78,7 +78,7 @@
     <h2>Software Developer</h2>
     <p>
       Hello, I'm a software developer with over {yearsProgramming}
-      years expereince. I live in Phoenix, Arizona.
+      years experience. I live in Phoenix, Arizona.
     </p>
     <p>
       I specialize in
@@ -86,14 +86,14 @@
       and
       <a href="https://reactjs.org/">React</a>
       front end web development frameworks. For the backend I'm
-      expereinced with
+      experienced with
       <a href="https://firebase.google.com/">Firebase</a>
       as a
       <abbr title="Backend-as-a-Service">BaaS</abbr>
       .
     </p>
     <p>
-      Additionally, I'm highly expereinced in data analytics and
+      Additionally, I'm highly experienced in data analytics and
       automation using VBA, SQL, and
       <a href="https://www.python.org/">Python</a>
       .

@@ -12,7 +12,7 @@ I think it is more fun to have a project that can be useful while still being in
 
 ## What it's built with
 
-This project is made using [Svelte](https://svelte.dev/) as the frontend. My expereince has mostly been in [React](https://reactjs.org/). But since I've been using `Svelte` it has been so enjoyable I couldn't help myself, mostly because it gets back to the roots of `HTML`, `CSS`, and `JavaScript`. I love the simplicity and power of `Svelte` and how much less writing it takes compared to `React`.
+This project is made using [Svelte](https://svelte.dev/) as the frontend. My experience has mostly been in [React](https://reactjs.org/). But since I've been using `Svelte` it has been so enjoyable I couldn't help myself, mostly because it gets back to the roots of `HTML`, `CSS`, and `JavaScript`. I love the simplicity and power of `Svelte` and how much less writing it takes compared to `React`.
 
 For my backend, I'm using [Firebase](https://firebase.google.com/) for it's cloud firestore, cloud functions, anaylitics, performance, and user authentication.
 
